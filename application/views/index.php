@@ -18,7 +18,7 @@
     <!-- Custom styles for this template-->
     <link href="<?= base_url('assets/'); ?>css/sb-admin-2.min.css" rel="stylesheet">
 
-    <script src="<?= base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/jquery-3.1.1.min.js"></script>
     <script src="<?= base_url() ?>assets/js/lib/data-table/datatables.min.js"></script>
     <script src="<?= base_url() ?>assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
     <script src="<?= base_url() ?>assets/js/popper.min.js"></script>
