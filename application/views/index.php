@@ -18,6 +18,14 @@
     <!-- Custom styles for this template-->
     <link href="<?= base_url('assets/'); ?>css/sb-admin-2.min.css" rel="stylesheet">
 
+    <script src="<?= base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/lib/data-table/datatables.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/popper.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/plugins.js"></script>
+    <script src="<?= base_url() ?>assets/js/sweetalert.min.js"></script>
+    <script src="<?= base_url() ?>assets/js/jquery.validate.min.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -216,7 +224,7 @@
         </div>
 
         <!-- Bootstrap core JavaScript-->
-        <script src="<?= base_url('assets/'); ?>vendor/jquery/jquery.min.js"></script>
+
         <script src="<?= base_url('assets/'); ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
         <!-- Core plugin JavaScript-->
@@ -224,14 +232,6 @@
 
         <!-- Custom scripts for all pages-->
         <script src="<?= base_url('assets/'); ?>js/sb-admin-2.min.js"></script>
-
-
-        <script src="<?= base_url() ?>assets/js/lib/data-table/datatables.min.js"></script>
-        <script src="<?= base_url() ?>assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
-        <script src="<?= base_url() ?>assets/js/popper.min.js"></script>
-        <script src="<?= base_url() ?>assets/js/plugins.js"></script>
-        <script src="<?= base_url() ?>assets/js/sweetalert.min.js"></script>
-        <script src="<?= base_url() ?>assets/js/jquery.validate.min.js"></script>
 
 </body>
 
